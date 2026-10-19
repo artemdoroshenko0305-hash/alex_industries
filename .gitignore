@@ -65,3 +65,7 @@ Desktop.ini
 tmp/
 temp/
 .cache/
+
+# --- Локальный UI ---
+src/ui/.local/
+*.orig

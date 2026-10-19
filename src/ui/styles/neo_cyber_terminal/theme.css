@@ -1,0 +1,47 @@
+[data-theme="3"] {
+  --bg-primary: #05080c;
+  --bg-panel: #0d151e;
+  --bg-input: #020406;
+  --text-primary: #00ff66;
+  --text-muted: #149e5a;
+  --accent: #00ff66;
+  --alert: #00e5ff;
+  --card-border: rgba(0, 255, 102, 0.4);
+  --glow-color: rgba(0, 255, 102, 0.45);
+  --shadow-style: 0 0 24px rgba(0, 255, 102, 0.18);
+  --font-heading: Consolas, "IBM Plex Mono", monospace;
+  --font-body: Consolas, "Courier New", monospace;
+  --orbit-mode: steps;
+  --status-online: #00e5ff;
+  --bg-pattern: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 255, 102, 0.04) 3px
+  );
+}
+
+[data-theme="3"] .hub-title,
+[data-theme="3"] .card-name {
+  text-shadow: 0 0 8px #00ff66;
+}
+
+[data-theme="3"] .thought-input {
+  border-bottom: 2px solid #00ff66;
+  color: #00e5ff;
+}
+
+[data-theme="3"] .thought-prompt {
+  animation: blink 1s steps(1) infinite;
+}
+
+[data-theme="3"] .agent-kpi,
+[data-theme="3"] .card-load {
+  color: #00e5ff;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

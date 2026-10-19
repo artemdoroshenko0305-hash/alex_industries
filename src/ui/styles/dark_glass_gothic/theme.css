@@ -1,0 +1,38 @@
+[data-theme="5"] {
+  --bg-primary: #0d0b14;
+  --bg-panel: rgba(24, 21, 40, 0.6);
+  --bg-input: rgba(8, 6, 13, 0.8);
+  --text-primary: #e2d9f3;
+  --text-muted: #c4b5fd;
+  --accent: #a855f7;
+  --alert: #38bdf8;
+  --card-border: rgba(168, 85, 247, 0.4);
+  --glow-color: rgba(168, 85, 247, 0.5);
+  --shadow-style: 0 12px 40px rgba(56, 189, 248, 0.12);
+  --font-heading: Cinzel, Georgia, serif;
+  --font-body: Georgia, serif;
+  --orbit-mode: parallax;
+  --status-online: #38bdf8;
+  --bg-pattern: radial-gradient(circle at 20% 20%, rgba(168, 85, 247, 0.16), transparent 32%),
+    radial-gradient(circle at 80% 70%, rgba(56, 189, 248, 0.12), transparent 28%);
+}
+
+[data-theme="5"] .agent-card,
+[data-theme="5"] .theme-dock,
+[data-theme="5"] .workspace-panel {
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+[data-theme="5"] .hub-title {
+  color: #d8b4fe;
+}
+
+[data-theme="5"] .thought-input {
+  border-bottom: 2px solid #a855f7;
+  color: #e9d5ff;
+}
+
+[data-theme="5"] .card-name {
+  text-shadow: 0 0 12px rgba(56, 189, 248, 0.45);
+}

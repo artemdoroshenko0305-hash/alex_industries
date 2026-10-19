@@ -1,0 +1,42 @@
+[data-theme="1"] {
+  --bg-primary: #14110f;
+  --bg-panel: #221a15;
+  --bg-input: #1a130f;
+  --text-primary: #e6dfd5;
+  --text-muted: #b9a994;
+  --accent: #d4af37;
+  --alert: #8b0000;
+  --card-border: rgba(180, 83, 9, 0.45);
+  --glow-color: rgba(212, 175, 55, 0.5);
+  --shadow-style: 0 18px 42px rgba(0, 0, 0, 0.55);
+  --font-heading: Cinzel, Georgia, serif;
+  --font-body: Georgia, "Times New Roman", serif;
+  --orbit-mode: smooth;
+  --bg-pattern: radial-gradient(circle at 50% 20%, rgba(212, 175, 55, 0.08), transparent 38%),
+    repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(255, 255, 255, 0.015) 4px);
+}
+
+[data-theme="1"] .hub-title {
+  color: #d4af37;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.35);
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+[data-theme="1"] .thought-input {
+  border-bottom: 2px solid #d97706;
+  color: #fde68a;
+}
+
+[data-theme="1"] .agent-card {
+  border-color: rgba(146, 64, 14, 0.5);
+}
+
+[data-theme="1"] .agent-card:hover {
+  border-color: rgba(245, 158, 11, 0.8);
+}
+
+[data-theme="1"] .theme-dock,
+[data-theme="1"] .workspace-panel {
+  border-color: rgba(212, 175, 55, 0.4);
+}

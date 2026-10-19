@@ -1,0 +1,34 @@
+[data-theme="4"] {
+  --bg-primary: #1a1412;
+  --bg-panel: #2c201a;
+  --bg-input: #120d0b;
+  --text-primary: #e3d2c3;
+  --text-muted: #c4a484;
+  --accent: #f0c987;
+  --alert: #b87333;
+  --card-border: rgba(184, 115, 51, 0.45);
+  --glow-color: rgba(240, 201, 135, 0.35);
+  --shadow-style: 0 16px 28px rgba(0, 0, 0, 0.4);
+  --font-heading: "Cormorant Garamond", Garamond, Georgia, serif;
+  --font-body: Garamond, Georgia, serif;
+  --orbit-mode: smooth;
+  --bg-pattern: radial-gradient(circle at 50% 100%, rgba(184, 115, 51, 0.12), transparent 46%);
+}
+
+[data-theme="4"] .agent-card {
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 1px rgba(184, 115, 51, 0.25), var(--shadow-style);
+}
+
+[data-theme="4"] .thought-input {
+  border-bottom: 2px solid #d97706;
+  color: #fde7c7;
+}
+
+[data-theme="4"] .card-cta {
+  color: #b87333;
+}
+
+[data-theme="4"] .theme-dock {
+  border-color: rgba(184, 115, 51, 0.5);
+}

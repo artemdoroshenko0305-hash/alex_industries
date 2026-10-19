@@ -1,0 +1,43 @@
+[data-theme="7"] {
+  --bg-primary: #f8fafc;
+  --bg-panel: rgba(255, 255, 255, 0.8);
+  --bg-input: #f1f5f9;
+  --text-primary: #0f172a;
+  --text-muted: #334155;
+  --accent: #0ea5e9;
+  --alert: #f59e0b;
+  --card-border: rgba(14, 165, 233, 0.4);
+  --glow-color: rgba(14, 165, 233, 0.35);
+  --shadow-style: 0 10px 30px rgba(14, 165, 233, 0.12);
+  --font-heading: "Segoe UI", "Trebuchet MS", sans-serif;
+  --font-body: "Segoe UI", sans-serif;
+  --orbit-mode: smooth;
+  --status-online: #0ea5e9;
+  --status-idle: #f59e0b;
+  --bg-pattern: linear-gradient(rgba(14, 165, 233, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(14, 165, 233, 0.06) 1px, transparent 1px);
+}
+
+html[data-theme="7"] body::before {
+  background-size: 32px 32px;
+}
+
+[data-theme="7"] .hub-title {
+  color: #0284c7;
+}
+
+[data-theme="7"] .thought-input {
+  border-bottom: 2px solid #0ea5e9;
+  color: #0c4a6e;
+}
+
+[data-theme="7"] .agent-card,
+[data-theme="7"] .theme-dock,
+[data-theme="7"] .workspace-panel {
+  backdrop-filter: blur(8px);
+}
+
+[data-theme="7"] .card-cta {
+  color: #f59e0b;
+  border-color: rgba(245, 158, 11, 0.45);
+}

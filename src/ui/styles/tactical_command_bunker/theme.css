@@ -1,0 +1,42 @@
+[data-theme="2"] {
+  --bg-primary: #0d0f12;
+  --bg-panel: #182026;
+  --bg-input: #090b0e;
+  --text-primary: #c5d1de;
+  --text-muted: #8aa0b3;
+  --accent: #ff9f0a;
+  --alert: #ff453a;
+  --card-border: rgba(255, 159, 10, 0.5);
+  --glow-color: rgba(255, 159, 10, 0.4);
+  --shadow-style: 6px 6px 0 rgba(255, 159, 10, 0.12);
+  --font-heading: "Share Tech Mono", "Courier New", monospace;
+  --font-body: "Courier New", Courier, monospace;
+  --orbit-mode: steps;
+  --status-online: #30d158;
+  --bg-pattern: linear-gradient(rgba(255, 159, 10, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 159, 10, 0.04) 1px, transparent 1px);
+}
+
+html[data-theme="2"] body::before {
+  background-size: 28px 28px;
+}
+
+[data-theme="2"] .agent-card {
+  clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
+}
+
+[data-theme="2"] .thought-input {
+  border-left: 4px solid #ff9f0a;
+  color: #ffb340;
+  text-transform: uppercase;
+}
+
+[data-theme="2"] .card-cta,
+[data-theme="2"] .theme-btn {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+
+[data-theme="2"] .theme-dock {
+  clip-path: polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+}
